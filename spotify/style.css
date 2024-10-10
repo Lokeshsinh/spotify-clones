@@ -1,0 +1,383 @@
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    padding: 0.5rem;
+    height: 30px;
+}
+.navbar{
+    display: flex;
+}
+.navbar img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.input{
+    display: flex;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(45, 45, 45);
+    margin-left: 21rem;
+}
+.home i{
+    font-size: 1.1rem;
+}
+.fa-magnifying-glass{
+    position: relative;
+    top: 15px;
+    left: 30px;
+    font-size: 1.1rem;
+    color:  rgb(123, 121, 121);
+    cursor: pointer;
+}
+.fa-magnifying-glass:hover{
+    color: white;
+    font-weight: bolder;
+}
+.input input{
+    margin-left: -0.5rem;
+    width: 450px;
+    height: 50px;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    padding-left: 3rem;
+    font-size: 1.1rem;
+    background-color:  rgb(48, 46, 46);
+}
+.input input::placeholder{
+    color:  rgb(210, 204, 204);
+}
+
+#btn{
+    width: 100px;
+    height: 50px;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(133, 131, 131);
+    font-weight: bolder;
+    cursor: pointer;
+}
+#btn:hover{
+    color: white;
+}
+#btn1{
+    width: 100px;
+    height: 50px;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    background: white;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+.btn-move{
+    margin-left: 10rem;
+}
+
+
+
+.home-conatiner{
+   margin-top: 1.1rem ;
+   display: flex;
+}
+.card-1{
+    margin-left: 0.5rem;
+    width: 290px;
+    height: 430px;
+    background-color: rgb(21, 20, 20);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.fa-book{
+  font-size: 1.3rem;
+  color: rgb(133, 131, 131);
+  margin-left: 0.5rem;
+}
+#sp1{
+    font-size: 1.3rem;
+    color: rgb(133, 131, 131);
+    margin-left: 0.7rem;
+}
+#sp2{
+    font-size: 1.7rem;
+    color: rgb(133, 131, 131);
+    margin-left: 6rem;
+}
+
+.card-2{
+    margin-top: 3rem;
+    width: 250px;
+    height: 115px;
+    background-color: rgb(33, 32, 32);
+    border-radius: 0.5rem ;
+    margin-left: 3.5px;
+    padding: 1rem;
+}
+#para{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+#para2{
+ font-size: 0.9rem;
+}
+#btn2{
+    margin-top: 0.3rem;
+ width: 130px;
+ height: 32px;
+ border-radius: 2rem;
+ font-size: 0.9rem;
+ border: none;
+ outline: none;
+ font-weight: bold;
+}
+
+.legal-list{
+    margin-left: 3.5px;
+    margin-top: 2rem;
+}
+#legal{
+    font-size: 0.8rem;
+    color: rgb(133, 131, 131);
+}
+#safe{
+    margin-left: 2rem;
+}
+#cook{
+    margin-left: 1rem;
+}
+#pri{
+    font-size: 0.8rem;
+    color: rgb(133, 131, 131);
+}
+#abu{
+    margin-left: 1rem;
+    color: rgb(133, 131, 131);
+    font-size: 0.8rem;
+}
+#acc{
+    color: rgb(133, 131, 131);
+    font-size: 0.8rem;
+}
+#cookies{
+    font-size: 0.8rem;
+}
+.legal-list button{
+    margin-top: 1rem;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 1rem;
+    font-size:1rem ;
+    border: 1px solid white;
+    border-radius: 2rem;
+    font-weight: bold;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    
+}
+
+
+.second-card{
+    margin-left: 0.5rem;
+    width: 73%;
+    height: 430px;
+    padding: 1rem;
+    background-color: rgb(21, 20, 20);
+    border-radius: 0.5rem;
+    overflow: auto;
+
+    
+}
+#span1{
+    font-size: 1.5rem;
+     font-weight: bolder;
+     cursor: pointer;
+}
+#span1:hover{
+    text-decoration: underline;
+
+}
+#span2{
+    font-size: 0.9rem;
+    color: rgb(133, 131, 131);
+    float: right;
+    font-weight: bolder;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+#span2:hover{
+    text-decoration: underline;
+    color: white;
+}
+.names{
+    margin-top: 1rem;
+    display: flex;
+}
+.music-player{
+    width: 180px;
+    height: 180px;
+}
+.music-player img{
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#para{
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#para:hover{
+    text-decoration: underline;
+}
+#para1{
+    font-size: 1rem;
+    color: rgb(133, 131, 131);
+    cursor: pointer;
+}
+#para1:hover{
+    text-decoration: underline;
+
+}
+
+.another-music{
+    margin-top: 7rem;
+}
+
+.film-2{
+    display: flex;
+}
+.player-card{
+    width: 180px;
+    height: 200px;
+    margin-top: 1rem;
+
+}
+.player-card img{
+    width: 170px;
+    height: 170px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+#para2{
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#para2:hover{
+    text-decoration: underline;
+
+}
+#para3{
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    color: rgb(133, 131, 131);
+    cursor: pointer;
+}
+#para3:hover{
+    text-decoration: underline;
+}
+.side{
+    margin-left: 0.2rem;
+}
+.another-musics{
+    margin-top: 5rem;
+}
+
+.company{
+    margin-top: 4rem;
+    display: flex;
+}
+#ending1{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.music1{
+    margin-left: 0.5rem;
+    
+}
+#ending1:hover{
+    text-decoration: underline;
+}
+#ending2{
+    font-size: 1rem;
+    color: rgb(133, 131, 131);
+    cursor: pointer;
+}
+#ending2:hover{
+    color: white;
+}
+.left{
+    margin-left: 3em;
+}
+.width{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:  rgb(46, 44, 44);
+    cursor: pointer;
+}
+.width i{
+    color: white;
+    font-size: 1.1rem;
+}
+.width:hover{
+background-color:  rgb(83, 80, 80) ;
+}
+hr{
+    margin-top: 3rem;
+    width: 95%;
+    color:  rgb(20, 18, 18) ;
+}
+h3{
+color:  rgb(107, 104, 104);
+}
+
+.footer{
+   height: 70px;
+   background: linear-gradient( to right, rgb(209, 11, 150), rgb(23, 122, 207));
+}
+.footer-side{
+    display: flex;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+}
+.footer-side button{
+    width: 170px;
+    height: 40px;
+    border-radius:2rem;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+#butt{
+    float: right;
+    margin-left: 20rem;
+}
+#parh{
+    font: 1rem;
+    font-weight: bolder;
+}
+#parh1{
+    font-size: 1.1rem;
+}
